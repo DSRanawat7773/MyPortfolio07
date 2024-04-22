@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website - DSR</title>
+    <link rel="stylesheet" href="dist\style.css">
+    <link rel="stylesheet" href="dist\output.css">
+</head>
+<body>
+    
+    <div id="wrapper">
+        <div class="container">
+            <div class="navbar">
+
+                <div class="logo-container">
+                    <img src="dist\ImageGallery\images.png" alt="" class="logo">
+                    <div class="logoText">alpat Singh Ranawat</div>
+                </div>
+
+                <div class="nav-items">
+                    <div><a href="#projects">Projects</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#contactme">Contact me</a></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="hero-section">
+
+            <div class="faded-text"> D.S.Ranawat</div>
+                <div class="hero-left">
+                    <div class="hero-heading">
+                        Hi! Dalpat Singh Ranawat
+                    </div>
+                        <div class="hero-heading hero-section-subheading">
+                            I am a <span class="role"></span>
+                        </div>
+
+                        <div class="hero-section-description">
+                            I am a software developer and here is my portfolio website. Here you'll learn about my journey as a software developer.
+                        </div>
+
+                        <div class="btn-pink" id="btn-bottom">Hire me</div>
+                </div>
+
+                <div class="hero-right">
+                    
+                    <div class="user-image">
+                        <img src="dist\ImageGallery\mypic.jpg" alt="">
+                    </div>
+                   
+                   
+                </div>
+        </div>
+
+        <div class="project-section">
+            <h2 class="page-header text-6xl font-bold text-white py-8 text-center">Projects</h2>
+
+            <div class="project-container flex justify-center">
+                <div class="project-card  flex justify-center " id="project1">
+                    <div class="project-number project-number-left">01</div>
+                    <div class="project-content">
+                        <div class="project-skills-container flex flex-row">
+                            <img class="project-skill" src="ImageGallery/html.png" alt="">
+                            <img class="project-skill" src="ImageGallery/css.png" alt="">
+                            <img class="project-skill" src="ImageGallery/js.png" alt="">
+
+                        </div>
+                        <h2 class="project-heading">welltrace</h2>
+                        <div class="project-subheading">Its a pet`s tech healthcare company,
+                            which provides a smart wearable device for your furry freinds.
+                        </div>
+                        <div class="btn-grp">
+                            <a href="https://welltrace.tech/">
+                                <button class="project-url" id="buttonProject">Live website</button>
+                            </a>
+                            <a href="">
+                                <i title="GithubLink" class="fa-brands fa-github iicon"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.2"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "Full Stack Developer",
+                "Web Developer",
+                "Social Media Manager",
+                "Coder",
+            ],
+
+            loop:true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+    </script>
+</body>
+</html>
